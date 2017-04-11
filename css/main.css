@@ -19,7 +19,6 @@ body {
 	color: white;
 	font-family: sans-serif;
 	opacity: 0.7;
-	position: fixed;
 	background-color: #c1b7ad;
 }
 
@@ -49,8 +48,26 @@ body {
 	text-decoration: none;
 	padding: 40px;
 }
-/**End Navigation Bar**/
+ /**End Navigation Bar**/
 
+/**-------------------**/
+
+/**Start Main Sections**/
+.main-section-1 {
+	height: 1000px;
+	width: 50%;
+	float: left;
+	background: red;
+}
+
+.main-section-2 {
+	height: 1000px;
+	width: 50%;
+	float: right;
+	background: blue;
+}
+
+/**End Main Sections**/
 
 
 
