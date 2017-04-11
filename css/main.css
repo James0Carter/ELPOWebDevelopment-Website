@@ -19,12 +19,13 @@ body {
 	font-family: sans-serif;
 	opacity: 0.7;
 	position: fixed;
-	background-color: black;
+	background-color: #c1b7ad;
 }
 
 .navigation-bar h1 {
 	font-weight: 400;
 	float: left;
+	margin-left: 1%;
 }
 
 .navigation-bar ul {
@@ -38,7 +39,8 @@ body {
 }
 
 .navigation-bar ul li:hover {
-	background: red;
+	background: #755555;
+	transition: all 0.40s;
 }
 
 .navigation-bar ul li a {
